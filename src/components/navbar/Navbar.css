@@ -34,8 +34,8 @@
 }
 
 .nav-links:hover{
-    background-color: gray;
     border-radius: 4px;
+    text-decoration: underline;
     transition: all 0.2s ease-out;
 
 }
@@ -72,7 +72,6 @@
     .nav-menu.active{
         background:linear-gradient(90deg, white 0%, rgb(237,237,237) 100%);
         left: 0;
-        right:0;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 1;
@@ -87,7 +86,6 @@
     }
 
     .nav-links:hover{
-        background-color: blue;
         border-radius: 4px;
     }
 
@@ -96,7 +94,7 @@
         align-items: left;
         top: 1rem;
         left: 1rem;
-        padding-left:5rem;
+        padding-left:6rem;
 
     }
 
@@ -120,7 +118,7 @@
         display: block;
         text-align: center;
         padding: 1.5rem;
-        margin: 2rem auto;
+        margin: 2rem;
         border-radius: 4px;
         width: 80%;
         background: gray;
