@@ -52,6 +52,12 @@
     display:none;
 }
 
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    z-index:2;
+  }
+
 @media screen and (max-width: 960px){
     .NavbarItems{
         position: relative;

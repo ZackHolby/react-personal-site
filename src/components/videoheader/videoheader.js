@@ -11,7 +11,7 @@ function Videoheader() {
         <ReactPlayer
           className='react-player'
           url={SportsVideo}
-          width='100%'
+          width='100vw'
           height='auto'
           loop='true'
           muted='true'
