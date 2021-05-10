@@ -1,25 +1,26 @@
-import video from './images/siteVideoEdited2MB.mp4';
-import './videoheader.css';
+import SportsVideo from '../../images/SportsVideo-compressed.mp4';
+import './Videoheader.css';
+import React from "react";
+import ReactPlayer from "react-player"
 
-function videoheader() {
+function Videoheader() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and saying my name - Holby.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="Video">
+
+      <div className='player-wrapper'>
+        <ReactPlayer
+          className='react-player'
+          url={SportsVideo}
+          width='100%'
+          height='auto'
+          loop='true'
+          muted='true'
+          playing
+        />
+      </div>
+
     </div>
   );
 }
 
-export default videoheader;
+export default Videoheader;
