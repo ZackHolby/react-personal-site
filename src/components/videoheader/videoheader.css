@@ -1,10 +1,31 @@
 .player-wrapper {
     position: relative;
-    padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+    padding-top: 56.25%;/* Player ratio: 100 / (1280 / 720) */
   }
   
   .react-player {
+    object-fit: cover;
     position: absolute;
     top: 0;
     left: 0;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .headerName{
+      font-size:50px;
+      margin-bottom: 0px;
+  }
+
+  .headerInfo{
+      font-size: 20px;
+      margin-top: -10px;
   }
