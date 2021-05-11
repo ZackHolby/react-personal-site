@@ -1,0 +1,47 @@
+.body{
+    background: radial-gradient(#e5e5e5, #ffff, #e5e5e5)
+}
+
+.card{
+    max-height: 320px;
+}
+
+.card-img-top{
+    max-height: 175px !important;
+}
+
+.card:hover{
+    box-shadow: 0px 8px 6px -6px black !important;
+}
+
+.card-body{
+    padding: 3rem 0 !important;
+}
+
+.card-text{
+    font-size: .9rem;
+    padding: 0.4rem 1.9rem;
+}
+
+.container-fluid .row{
+    padding: 3rem 0;
+}
+
+.col-lg-4{
+    padding: 0.5rem 1rem 0.5rem 1rem !important;
+}
+.col-md-12{
+    padding: 0.5rem;
+}
+.col-md-6{
+    padding: 0.5rem;
+}
+.col-sm-12{
+    padding: 0.5rem 2rem 0.5rem 2rem !important;
+}
+.col-12{
+    padding: 0.5rem 2rem 0.5rem 2rem !important;
+}
+
+
+
