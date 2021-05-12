@@ -1,7 +1,7 @@
 import './App.css';
 import React from "react";
 import Videoheader from './components/videoheader/Videoheader';
-import Navbar from './components/navbar/Navbar';
+import Navbar from './components/navbar/Navbar.jsx';
 import About from './components/about/About';
 
 
