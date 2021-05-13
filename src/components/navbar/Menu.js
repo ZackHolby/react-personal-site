@@ -10,7 +10,7 @@ export const Menu = [
         cName: 'nav-links'
     },
     {
-        label: 'Experience',
+        label: 'Projects/Experience',
         url: "#",
         cName: 'nav-links'
     },

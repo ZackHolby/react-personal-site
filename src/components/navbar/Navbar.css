@@ -65,6 +65,12 @@
         position: relative;
     }
 
+    .sticky-nav {
+        position: sticky;
+        top: 0;
+        z-index:2;
+      }
+
     .nav-menu{
         display: flex;
         flex-direction: column;
@@ -90,6 +96,11 @@
         padding: 1rem;
         width:100%;
         display:table;
+
+    }
+
+    .fa-bars{
+        transform: translate(0px,-10px);
 
     }
 
@@ -121,6 +132,7 @@
     .fa-times{
         color: black;
         font-size: 2rem;
+        transform: translate(0px,-10px);
 
     }
 
