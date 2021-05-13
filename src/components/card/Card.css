@@ -3,11 +3,13 @@
 }
 
 .card{
-    max-height: 320px;
+    height: 300px;
 }
 
 .card-img-top{
-    max-height: 175px !important;
+    height: 175px !important;
+    padding: 1rem;
+    object-fit: contain;
 }
 
 .card:hover{
