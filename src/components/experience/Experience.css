@@ -1,3 +1,7 @@
 .Experience{
-    background: gray;
+    background: linear-gradient(180deg, white 0%, rgb(230,230,230) 100%);
+}
+.headerTitle{
+    text-align: center !important;
+    padding-top: 1rem;
 }

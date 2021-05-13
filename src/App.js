@@ -5,6 +5,7 @@ import Navbar from './components/navbar/Navbar.jsx';
 import About from './components/about/About';
 import Experience from './components/experience/Experience'
 import Projects from './components/projects/Projects'
+import Contact from "./components/contact/Contact"
 
 
 
@@ -15,8 +16,9 @@ class App extends React.Component {
         <Navbar />
         <Videoheader />
         <About />
-        <Experience />
         <Projects />
+        <Experience />
+        <Contact />
       </div>
     );
   }

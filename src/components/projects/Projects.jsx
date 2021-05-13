@@ -14,6 +14,7 @@ class Projects extends React.Component {
     render() {
         return (
             <div className="Projects">
+                <h2 className="headerTitle">Projects</h2>
                 <div className="container-fluid d-flex justify-content-center">
                     <div class="row">
                         <div class="col-lg-4 offset-lg-0 col-md-4 offset-md-0 col-sm-10 offset-sm-1 col-10 offset-1">

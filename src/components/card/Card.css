@@ -6,6 +6,7 @@
     height: 300px;
 }
 
+
 .card-img-top{
     height: 175px !important;
     padding: 1rem;
@@ -26,7 +27,7 @@
 }
 
 .container-fluid .row{
-    padding: 3rem 0;
+    padding:1rem 0 3rem 0;
 }
 
 .col-lg-4{
