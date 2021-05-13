@@ -16,6 +16,7 @@ class App extends React.Component {
         <Videoheader />
         <About />
         <Experience />
+        <Projects />
       </div>
     );
   }

@@ -21,6 +21,7 @@
 .nav-menu{
     display: grid;
     grid-template-columns: repeat(4,auto);
+    margin-bottom: -5px;
     list-style: none;
     text-align: center;
     width: 75vw;
