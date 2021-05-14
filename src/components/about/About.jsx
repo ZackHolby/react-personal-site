@@ -15,7 +15,7 @@ class About extends React.Component {
     render() {
 
         return (
-            <div name="myScrollToElement" className="About">
+            <div className="About">
                 <h2 className="headerTitle">About Me</h2>
                 <div className="container-fluid d-flex justify-content-center">
                     <div class="row">

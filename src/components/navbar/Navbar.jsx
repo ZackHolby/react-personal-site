@@ -12,9 +12,6 @@ class Navbar extends Component {
         this.setState({ clicked: !this.state.clicked })
     }
 
-    scrollTop = () =>{
-        scroll.scrollToTop();
-    }
 
     render() {
         return(
