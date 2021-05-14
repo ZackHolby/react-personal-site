@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.css"
+import Resume from "../../images/Zachary Holbrook Resume CS.pdf"
 
 
 class Contact extends React.Component{
@@ -22,7 +23,7 @@ class Contact extends React.Component{
                                 <p><i className="fa fa-home"></i>Columbus, OH 43201</p>
                                 <p><i className="fa fa-phone" aria-hidden="true"></i>937-344-8169</p>
                                 <a className="link" href = "mailto: holbrook.224@osu.edu"><p className="link"><i class="fa fa-envelope" aria-hidden="true"></i>Holbrook.224@osu.edu</p></a>
-                                <a className="link" href="./Zachary Holbrook CompSci Resume Website.pdf" download><p className="link"><i class="fa fa-arrow-down" aria-hidden="true"></i>Resume</p></a>
+                                <a className="link" href={Resume} download><p className="link"><i class="fa fa-arrow-down" aria-hidden="true"></i>Resume</p></a>
                                 
                             </div>
                         </div>
