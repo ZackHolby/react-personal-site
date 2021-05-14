@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Menu} from './Menu'
 import logo from "../../images/logo.svg"
 import './Navbar.css'
-import { Link, animateScroll as scroll } from 'react-scroll'
+import { Link } from 'react-scroll'
 
 class Navbar extends Component {
 
