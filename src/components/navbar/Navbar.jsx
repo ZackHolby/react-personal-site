@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Menu} from './Menu'
 import logo from "../../images/logo.svg"
 import './Navbar.css'
+import { Link, animateScroll as scroll } from 'react-scroll'
 
 class Navbar extends Component {
 
@@ -9,6 +10,10 @@ class Navbar extends Component {
 
     handleClick = () => {
         this.setState({ clicked: !this.state.clicked })
+    }
+
+    scrollTop = () =>{
+        scroll.scrollToTop();
     }
 
     render() {
@@ -22,11 +27,7 @@ class Navbar extends Component {
                 <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
                     {Menu.map((item, index) => {
                         return(
-                            <li key={index}>
-                                <a className={item.cName} href={item.url}>
-                                    {item.label}
-                                </a>
-                            </li>
+                            <Link className={item.cName} to={item.loc} spy={true} smooth={true} duration={200} offset={-60}>{item.label}</Link>
                         )
                     })}
                     
@@ -38,3 +39,10 @@ class Navbar extends Component {
 }
 
 export default Navbar;
+
+/*
+<li key={index} onClick={this.scrollTop} to="About" spy={true} smooth={true} duration={500}>
+                                <a className={item.cName} href={item.url}>
+                                    {item.label}
+                                </a>
+                            </li>*/

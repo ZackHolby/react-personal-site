@@ -1,5 +1,5 @@
 import './About.css';
-import React from "react";
+import React, { useRef } from "react";
 import { render } from '@testing-library/react';
 import Card from "../card/Card"
 import basketballPic from "../../images/wOSUbasketball.JPG"
@@ -9,9 +9,13 @@ import "./About.css"
 
 
 class About extends React.Component {
+
+
+    
     render() {
+
         return (
-            <div className="About">
+            <div name="myScrollToElement" className="About">
                 <h2 className="headerTitle">About Me</h2>
                 <div className="container-fluid d-flex justify-content-center">
                     <div class="row">

@@ -39,6 +39,8 @@
     border-radius: 4px;
     text-decoration: underline;
     transition: all 0.2s ease-out;
+    cursor: pointer;
+    color:black;
 
 }
 
@@ -115,7 +117,6 @@
         align-items: left;
         top: 1rem;
         left: 1rem;
-        padding-left:2.5rem;
 
     }
 
