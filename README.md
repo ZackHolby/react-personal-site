@@ -2,7 +2,7 @@
 
 Built this website using React. Utilized Bootstrap for dyanmic functionality and Azure app service to deploy and host.
 
-You can view the live site here: [www.zholbrook.com](zholbrook.com)
+You can view the live site here: [www.zholbrook.com](http://zholbrook.com)
 
 # Running the code locally
 
