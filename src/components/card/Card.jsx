@@ -8,7 +8,7 @@ class Card extends React.Component{
         return(
             <div className="card text-center">
                 <div className="overflow">
-                    <img src={this.props.pic} alt="card image" className="card-img-top"/>
+                    <img src={this.props.pic} alt="card" className="card-img-top"/>
                 </div>
                 <div className="card-body text-dark">
                     <h4 className="card-title">{this.props.title}</h4>

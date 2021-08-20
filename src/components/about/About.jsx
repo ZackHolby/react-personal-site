@@ -1,11 +1,9 @@
 import './About.css';
-import React, { useRef } from "react";
-import { render } from '@testing-library/react';
+import React from "react";
 import Card from "../card/Card"
 import basketballPic from "../../images/wOSUbasketball.JPG"
 import CSEpic from "../../images/50CSE.png"
 import vballPic from "../../images/volleyballPic.JPG"
-import "./About.css"
 
 
 class About extends React.Component {

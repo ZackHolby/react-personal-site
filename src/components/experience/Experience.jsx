@@ -1,6 +1,5 @@
 import './Experience.css';
 import React from "react";
-import { render } from '@testing-library/react';
 import Card from "../card/Card"
 import CapitalOneImg from "../../images/capitalOne3.png"
 import GeImg from "../../images/geDigital2.png"

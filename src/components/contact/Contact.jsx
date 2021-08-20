@@ -1,6 +1,6 @@
 import React from "react";
-import "./Contact.css"
-import Resume from "../../images/Zachary Holbrook Resume CS.pdf"
+import "./contact.css"
+import Resume from "../../images/Zachary Holbrook Resume New CompSci.pdf"
 
 
 class Contact extends React.Component{
