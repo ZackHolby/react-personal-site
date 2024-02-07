@@ -27,7 +27,7 @@ class Videoheader extends React.Component {
           <div className="overlay">
           <WindupChildren>
             <p className="headerName"><Pace ms={100}>{"Zachary Holbrook"}</Pace></p>
-            <p className="headerInfo"><Pace ms={100}>{"Computer Science at Ohio State"}</Pace></p>
+            <p className="headerInfo"><Pace ms={100}>{"Coding. Sports. Friends. Family."}</Pace></p>
           </WindupChildren>
           </div>
         </div>
