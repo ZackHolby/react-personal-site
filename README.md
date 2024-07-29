@@ -1,6 +1,6 @@
 # My Personal Website
 
-Built this website using React. Utilized Bootstrap for dyanmic functionality and Azure app service to deploy and host.
+Built this website using React. Utilized Bootstrap for dyanmic functionality and S3 static website hosting.
 
 You can view the live site here: [www.zholbrook.com](http://zholbrook.com)
 
