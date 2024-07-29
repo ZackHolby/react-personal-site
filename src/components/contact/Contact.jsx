@@ -1,6 +1,6 @@
 import React from "react";
 import "./contact.css"
-import Resume from "../../images/Zachary Holbrook CompSci Resume 020524.pdf"
+import Resume from "../../images/Zachary_Holbrook_Resume_CS.pdf"
 
 
 class Contact extends React.Component{
@@ -20,7 +20,7 @@ class Contact extends React.Component{
                             <div className="col-md-4 col-lg-4 col-xl-3 mx-auto mb-md-0 mb-4">
                                 <h6 className="text-uppercase font-weight-bold">Contact</h6>
                                 <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"/>
-                                <p><i className="fa fa-home"></i>Columbus, OH 43201</p>
+                                <p><i className="fa fa-home"></i>Columbus, OH 43215</p>
                                 <p><i className="fa fa-phone" aria-hidden="true"></i>937-344-8169</p>
                                 <a className="link" href = "mailto: zackholbrook44@gmail.com"><p className="link"><i class="fa fa-envelope" aria-hidden="true"></i>Zackholbrook44@gmail.com</p></a>
                                 <a className="link" href={Resume} download><p className="link"><i class="fa fa-arrow-down" aria-hidden="true"></i>Resume</p></a>
@@ -41,7 +41,7 @@ class Contact extends React.Component{
                                     <a className="gh-ic" href="https://github.com/ZackHolby">
                                     <i className="fa fa-github-square fa-3x" aria-hidden="true"></i>
                                     </a>
-                                    <a className="li-ic" href="https://www.linkedin.com/in/zachary-holbrook-a9a344157/">
+                                    <a className="li-ic" href="https://www.linkedin.com/in/zacharyholb/">
                                     <i className="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
                                     </a>
                                 </div>

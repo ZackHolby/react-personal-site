@@ -17,7 +17,7 @@ class Experience extends React.Component {
                     <div class="row">
                         <div class="col-lg-4 offset-lg-0 col-md-4 offset-md-0 col-sm-10 offset-sm-1 col-10 offset-1">
                             <a href="https://www.capitalone.com/tech/software-engineering/inside-shop-with-rewards/" class="custom-card">
-                                <Card pic={CapitalOneImg} title="Software Engineer (Backend / Infrastructure)" text="Software Engineer on the 3 different teams through TDP Rotational Program. Java based Application Orchestrator. Golang Lambda for Rewards servicing. Identity for Partner accoutn servicing. Tech Stack: AWS Suite, APIs, Golang, Java, Shell, Vue, Node, Docker."></Card>
+                                <Card pic={CapitalOneImg} title="Software Engineer (Backend / Infrastructure)" text="Software Engineering on Acquisitions and Partnership teams. Java based Application Orchestrator. Golang Lambda suite for Rewards servicing. Identity for Partner account servicing. Membership Management. Tech Stack: AWS Suite, Rest APIs, Golang, Java, Shell, Vue, Node, Docker."></Card>
                             </a>
                         </div>
                         <div class="col-lg-4 offset-lg-0 col-md-4 offset-md-0 col-sm-10 offset-sm-1 col-10 offset-1">
