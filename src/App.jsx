@@ -1,11 +1,11 @@
 import './App.css';
 import React from "react";
-import Videoheader from './components/videoheader/Videoheader';
+import Videoheader from './components/videoheader/Videoheader.jsx';
 import Navbar from './components/navbar/Navbar.jsx';
-import About from './components/about/About';
-import Experience from './components/experience/Experience'
-import Projects from './components/projects/Projects'
-import Contact from "./components/contact/Contact"
+import About from './components/about/About.jsx';
+import Experience from './components/experience/Experience.jsx'
+import Projects from './components/projects/Projects.jsx'
+import Contact from "./components/contact/Contact.jsx"
 
 
 
@@ -26,3 +26,5 @@ class App extends React.Component {
 }
 
 export default App;
+
+

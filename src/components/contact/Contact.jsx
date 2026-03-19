@@ -22,9 +22,7 @@ class Contact extends React.Component{
                                 <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"/>
                                 <p><i className="fa fa-home"></i>Columbus, OH 43215</p>
                                 <p><i className="fa fa-phone" aria-hidden="true"></i>937-344-8169</p>
-                                <a className="link" href = "mailto: zackholbrook44@gmail.com"><p className="link"><i class="fa fa-envelope" aria-hidden="true"></i>Zackholbrook44@gmail.com</p></a>
-                                <a className="link" href={Resume} download><p className="link"><i class="fa fa-arrow-down" aria-hidden="true"></i>Resume</p></a>
-                                
+                                <a className="link" href = "mailto: zackholbrook44@gmail.com"><p className="link"><i class="fa fa-envelope" aria-hidden="true"></i>zackholbrook44@gmail.com</p></a>                                
                             </div>
                         </div>
                     </div>
